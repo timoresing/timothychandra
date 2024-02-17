@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="cv.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div class="name">Timothy Chandra</div>
+        <div>
+            <ul class="nav-link">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#showcase">Showcase</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="name">Timothy Chandra</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-link">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="pic-container">
+            <img src="assets/profile-pic.jpg" alt="Timothy Chandra Profile">
+        </div>
+        <div class="section-text">
+            <p class="text-p1">Guten Tag!</p>
+            <h1 class="title">Timothy Chandra</h1>
+            <p class="text-p2">Graphic Designer</p>
+            <div class="btn-container">
+                <button class="btn btn-1" onclick="window.open('assets/resume.pdf')">Download CV</button>
+                <button class="btn btn-2" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+            <div id="profile-social">
+                <a href="https://www.linkedin.com/in/timothy-chandra-mmc2011tcvl/" target="_blank"><img
+                        src="assets/linkedin.png" alt="LinkedIn" class="icon"></a>
+                <a href="https://github.com/timoresing/" target="_blank"><img src="assets/github.png" alt="LinkedIn"
+                        class="icon"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="text-p1">Get To Know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="pic-container">
+                <img src="assets/profile-pic-2.png" alt="Timothy Chandra" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="assets/experience.png" alt="Experience" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ years<br>Graphic Design<br>Photo Editing<br>Video Editing</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="assets/education.png" alt="Education" class="icon">
+                        <h3>Education</h3>
+                        <p>Schooling from Methodist-3 High School in Medan, Indonesia, 2023<br>Ongoing Bachelor :
+                            Information Technology 2023</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I'm an expert graphic designer and video editor with over 2 years of experience.
+                        My expertise are Adobe Photoshop, Adobe Premiere Pro, Adobe Lightroom, Capcut, and Canva.
+                        I'm an ambitious, hardworking, and responsible student at
+                        University of North Sumatra. I am willing to learn new skills to
+                        succeed in my fields. Enthusiastic person who can multitask
+                        efficiently and equipped with organization skills.
+                        I am looking forward to gaining experience to contribute to a
+                        company and wide community.</p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='#experience'">
+    </section>
+
+    <section id="experience">
+        <p class="text-p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="title-2">Graphic Design & Photo Editing</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/ps.png" alt="Adobe Photoshop" class="icon">
+                            <div>
+                                <h3>Adobe Photoshop</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/lr.png" alt="Adobe Lightroom" class="icon">
+                            <div>
+                                <h3>Adobe Lightroom</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/cv.png" alt="Canva" class="icon">
+                            <div>
+                                <h3>Canva</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="title-2">Video Editing</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/pr.png" alt="Adobe Premiere Pro" class="icon">
+                            <div>
+                                <h3>Adobe Premiere Pro</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/cc.png" alt="Capcut" class="icon">
+                            <div>
+                                <h3>Capcut</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='#showcase'">
+    </section>
+
+    <section id="showcase">
+        <p class="text-p1">Stroll Around My</p>
+        <h1 class="title">Showcase</h1>
+        <div class="about-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <img src="assets/sc1.jpg" alt="Conan" class="pic-showcase">
+                    <p class="text-p1">Conan Edogawa S14 Zenki Poster</p>
+                </div>
+                <div class="details-container">
+                    <img src="assets/sc2.jpg" alt="Ai" class="pic-showcase">
+                    <p class="text-p1">Ai Haibara S14 Zenki Poster</p>
+                </div>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bUuBb0PFvho?si=7vW1XnyeKaMaC90j"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <img src="assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='#contact'">
+    </section>
+
+    <section id="contact">
+        <p class="text-p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="assets/email.png" alt="Email" class="icon contact-icon contact-email">
+                <p><a href="mailto:timothy05chandra@gmail.com" target="_blank">timothy05chandra@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="assets/linkedin.png" alt="LinkedIn" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/timothy-chandra-mmc2011tcvl/" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+        <div class="contact-info-upper-container social-media">
+            <div class="contact-info-container">
+                <a target="_blank" href="https://wa.me/6285373628877"><img src="assets/whatsapp.png" alt="Whatsapp"
+                        class="icon"></a>
+            </div>
+            <div class="contact-info-container">
+                <a target="_blank" href="https://www.instagram.com/timothychandra_"><img src="assets/instagram.png"
+                        alt="Instagram" class="icon"></a>
+            </div>
+            <div class="contact-info-container">
+                <a target="_blank" href="https://www.tiktok.com/@timoresing"><img src="assets/tiktok.png" alt="Whatsapp"
+                        class="icon"></a>
+            </div>
+            <div class="contact-info-container">
+                <a target="_blank" href="https://www.youtube.com/channel/UCcGFKIuCpBUOmFnVeIHPQkA"><img
+                        src="assets/youtube.png" alt="Youtube" class="icon"></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-link-container">
+                <ul class="nav-link">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#showcase">Showcase</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Timothy Chandra. All Rights Reserved</p>
+    </footer>
+
+    <script src="cv.js"></script>
+</body>
+
+</html>
